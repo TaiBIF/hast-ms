@@ -1,0 +1,109 @@
+﻿<%@ Master Language="VB" CodeFile="MainC.master.vb" Inherits="HAST_MasterPages_MainC" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <title>中央研究院植物標本館</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="HAST/js/jquery.min.js"></script>
+		<script src="HAST/js/jquery.dropotron.min.js"></script>
+		<script src="HAST/js/skel.min.js"></script>
+		<script src="HAST/js/skel-layers.min.js"></script>
+		<script src="HAST/js/init.js"></script>
+		<noscript>
+           
+			<link rel="stylesheet" href="HAST/css/skel.css" />
+			<link rel="stylesheet" href="HAST/css/style.css" />
+			<link rel="stylesheet" href="HAST/css/style-wide.css" />            
+            <link rel="stylesheet" href="HAST/css/append.css" />
+		</noscript>
+    
+        
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+
+        <!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+                    <img usemap="#language" src="HAST/images/covertitle_chinese.png"/>
+                    
+                    <map name="language" >
+                        <area shape="rect" coords="155, 160, 205, 190" href="index.html"/>
+                        <area shape="rect" coords="215, 142, 300, 172" href="index.html"/>
+                    </map>
+				</div>
+			</section>
+
+        
+        
+                <!--div class="wrapper style5">
+                    <section class="container">
+                        <a href="index.html"><img src="images/header.png"/></a>
+                    </section>
+                </div-->
+
+		    <!-- Header -->
+			    <header id="header" class="skel-layers-fixed">
+				    <!--<h1><a href="index.html" class="icon fa-tint">HAST</a></h1>-->
+				    <nav id="nav" style="margin:0 auto 0 auto; width:1024px;">
+
+					   <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+                        StaticDisplayLevels="2" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False" DynamicEnableDefaultPopOutImage="False" RenderingMode="Default">
+                            <DynamicMenuItemStyle CssClass="DynamicMenuItem" />
+                            <DynamicMenuStyle CssClass="DynamicMenu" />
+                            <LevelMenuItemStyles>
+                                <asp:MenuItemStyle CssClass="LevelMenuItem1" Font-Underline="False" />
+                                <asp:MenuItemStyle CssClass="LevelMenuItem2" Font-Underline="False" />
+                                <asp:MenuItemStyle CssClass="LevelMenuItem3" Font-Underline="False" />
+                                <asp:MenuItemStyle CssClass="LevelMenuItem4" Font-Underline="False" />
+                            </LevelMenuItemStyles>                            
+                            <StaticMenuItemStyle CssClass="StaticMenuItem" />
+                            <StaticMenuStyle CssClass="StaticMenu" />
+                        </asp:Menu>
+
+				    </nav>
+			    </header>
+               
+    <div>
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+				    中央研究院植物標本館 版權所有　Copyright &copy; 2015 Herbarium, Academia Sinica. All Rights Reserved.
+				    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+				</div>
+			</footer>      
+
+    </form>
+
+        <!-- Google Analytics追蹤 -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1848514-5");
+            pageTracker._trackPageview();   
+            } 
+         catch(err) {}
+    </script>
+</body>
+</html>

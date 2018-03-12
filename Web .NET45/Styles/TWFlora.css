@@ -1,0 +1,111 @@
+﻿#header_menu
+{
+	         
+	position:absolute;
+	top:170px;
+	margin-left:30px;
+	/*filter: Alpha(opacity=75);*/
+	border-style:none;
+	border-width:2px;
+	font-size:Small;
+	                	
+}
+
+
+
+
+.StaticMenu, .DynamicMenu
+{
+	color:Blue;
+}
+
+.StaticMenuItem, .DynamicMenuItem
+{
+	color:Blue;	
+	
+}
+
+.StaticMenuItem
+{
+	
+	margin: 5px 5px 2px 5px;
+	height: 25px;
+	
+}
+
+.DynamicMenuItem
+{
+	
+	background-color:#E0FFFF;
+	height:20px;
+	margin: 3px;
+	padding: 3px;
+}
+
+.Level1Style 
+{
+	
+}
+
+.Level2Style
+{
+	
+   min-width:60px;
+   
+
+}
+
+
+
+
+.Level3Style
+{
+
+	
+}
+
+
+
+
+
+.Level4Style
+{
+	
+}
+
+
+.Level3Style li a:hover
+{
+	background-color:Aqua;
+}
+
+
+.StaticMenu li a:hover, .DynamicMenu li a:hover
+{
+	background-color:#98FB98;
+	background-color:#7FFFD4;
+}
+
+.StaticMenuItem .Level2Style 
+{
+	
+}
+
+
+
+.StaticMenuItem li a:hover, .DynamicMenuItem li a:hover
+{
+	/*background-color: #98FB98;*/
+}
+
+
+.StaticMenuItem a:visited, .DynamicMenuItem a:visited
+{
+	color:Navy;
+}
+
+.level3 .DynamicMenuItem .Level3Style li a:hover
+{
+	/*background-color: #98FB98;*/
+}
+	

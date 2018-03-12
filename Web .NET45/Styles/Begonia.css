@@ -1,0 +1,27 @@
+﻿body {
+}
+
+#header_menu
+{
+	position:absolute;
+	margin-left:50px;
+	
+	top:125px;           	         
+	                
+    font-size:12px;
+    
+    --filter: Alpha(opacity=75);   
+    border-style:none;
+	border-width:0px;                	
+}
+#header_menu tr,td
+{
+	border-style:none;
+	border-width:0px; 
+}
+
+
+.Level3Style a:visited
+{
+    color:Navy;
+}

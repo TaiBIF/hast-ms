@@ -1,0 +1,91 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageBegonia.master.vb" Inherits="MasterPageBegonia" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>未命名頁面</title>
+    <meta name="keywords" content="HAST,植物,標本,台灣,Taiwan,秋海棠,Begonia" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Begonia.css" rel="stylesheet" type="text/css" />
+
+    
+</head>
+<body bgcolor="#FFFFFF" background = "http://www.hast.biodiv.tw/images/background.gif">
+    <form id="formMasterBegonia" runat="server">
+    
+    <div id ='header' align="center" >
+            
+            
+    <div id='header_menu'>            
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                    Orientation="Horizontal" StaticDisplayLevels="2">
+                    <DynamicMenuItemStyle CssClass="DynamicMenuItem" />
+                    <DynamicMenuStyle CssClass="DynamicMenu" />
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="Level1Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level2Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level3Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level4Style" Font-Underline="False" />
+                    </LevelMenuItemStyles>
+
+                    <StaticMenuItemStyle CssClass="StaticMenuItem" />
+                    <StaticMenuStyle CssClass="StaticMenu" />
+
+                </asp:Menu>
+            </div>
+            
+            <img alt="" src="http://www.hast.biodiv.tw/images/BegoniaTitle.jpg" />
+   </div>    
+   
+    
+    
+        <div id='container'> 
+            
+            <div id='main'>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </div >
+        
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+        
+        <div id='footer'>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_teldap.gif" />
+            <a href="http://teldap.tw/" target="_blank" >數位典藏與數位學習國家型科技計畫</a>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_AS.gif" />
+            <a href="http://www.sinica.edu.tw" target="_blank" >中央研究院</a>
+            
+            <br /><img alt="" src="http://www.hast.biodiv.tw/images/logo_BRCAS.gif" />
+            <a href="http://biodiv.sinica.edu.tw/" target="_blank" >中央研究院生物多樣性研究中心</a>&nbsp;&nbsp;&nbsp;
+             HAST  中央研究院植物標本館
+            <br /><a href="http://digiarch.sinica.edu.tw/index.jsp" target="_blank">中央研究院數位典藏資源網</a>
+            <br />
+            版權所有 
+            All Rights Reserved
+         </div>
+         
+        
+        
+        
+   
+    </form>
+    
+    <!-- Google Analytics追蹤 -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1848514-5");
+            pageTracker._trackPageview();   
+            } 
+         catch(err) {}
+    </script>
+    
+</body>
+</html>

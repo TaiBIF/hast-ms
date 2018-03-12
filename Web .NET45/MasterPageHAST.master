@@ -1,0 +1,46 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageHAST.master.vb" Inherits="MasterPageHAST" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HAST</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Style.css" rel="stylesheet" type="text/css" />     
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+     <div id='footer'>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_teldap.gif" />
+            <a href="http://teldap.tw/" target="_blank" >數位典藏與數位學習國家型科技計畫</a>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_AS.gif" />
+            <a href="" target="_blank" >中央研究院</a>
+            <br /><img alt="" src="http://www.hast.biodiv.tw/images/logo_BRCAS.gif" />
+            <a href="http://biodiv.sinica.edu.tw/" target="_blank" >中央研究院生物多樣性研究中心</a>&nbsp;&nbsp;&nbsp;
+            <a href="http://hast.sinica.edu.tw/" target="_blank" >HAST  中央研究院植物標本館</a> 
+            <br />版權所有 
+            All Rights Reserved
+         </div>
+    </form>
+    <!-- Google Analytics追蹤 -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1848514-5");
+            pageTracker._trackPageview();   
+            } 
+         catch(err) {}
+    </script>
+    
+</body>
+</html>

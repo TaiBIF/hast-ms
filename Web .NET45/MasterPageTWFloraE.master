@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageTWFloraE.master.vb" Inherits="MasterPageTWFloraE" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Taiwan Flora</title>
+    <meta name="keywords" content="HAST,flora,Taiwan,plant,herbarium,specimen" /> 
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div id ='header' align="center" >
+            <div id='header_menu'>            
+                <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                    Orientation="Horizontal" StaticDisplayLevels="2">
+                    <DynamicMenuItemStyle CssClass="DynamicMenuItem" />
+                    <DynamicMenuStyle CssClass="DynamicMenu" />
+                    <LevelMenuItemStyles>
+                        <asp:MenuItemStyle CssClass="Level1Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level2Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level3Style" Font-Underline="False" />
+                        <asp:MenuItemStyle CssClass="Level4Style" Font-Underline="False" />
+                    </LevelMenuItemStyles>
+
+                    <StaticMenuItemStyle CssClass="StaticMenuItem" />
+                    <StaticMenuStyle CssClass="StaticMenu" />
+
+                </asp:Menu>
+            </div>
+            <asp:Image ID="ImageTitle" runat="server" ImageUrl="~/images/specimenQuery.jpg" />
+        </div>    
+        
+        <div id='container'>             
+            
+            <div id='main'>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">        
+                </asp:ContentPlaceHolder>
+            </div>
+            
+        </div>
+        
+        <div id='footer'>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_teldap.gif" />
+            <a href="http://teldap.tw/en/" target="_blank" >Taiwan e-Learning & Digital Archives</a>
+            <img alt="" src="http://www.hast.biodiv.tw/images/logo_AS.gif" />
+            <a href="http://www.sinica.edu.tw/main_e.shtml" target="_blank" >Academia Sinica</a>
+            <br /><img alt="" src="http://www.hast.biodiv.tw/images/logo_BRCAS.gif" />
+            <a href="http://biodiv.sinica.edu.tw/en2007/" target="_blank" >Biodiversity Research Center</a>&nbsp;&nbsp;&nbsp;
+             Herbarium, Research Center for Biodiversity, Academia Sinica, Taipei (HAST)   
+            <br /><a href="http://digiarch.sinica.edu.tw/en_index.jsp" target="_blank">Academia Sinica Digital Resources</a>
+            <br />All Rights Reserved
+         </div>
+    </form>     
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-1848514-5");
+            pageTracker._trackPageview();   
+            } 
+         catch(err) {}
+    </script>
+    
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+</body>
+</html>

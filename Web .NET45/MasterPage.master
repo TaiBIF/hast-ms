@@ -1,0 +1,48 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>未命名頁面</title>
+     <link type="text/css" href="~/styles/styleMgm.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+         <asp:LoginView ID="LoginView1" runat="server">
+            <LoggedInTemplate>
+                &nbsp;<asp:LoginName ID="LoginName1" runat="server" />
+                <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="changePWD.aspx">變更密碼</asp:HyperLink>
+                <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" 
+                     DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" 
+                     Font-Names="Verdana" Font-Size="10pt" ForeColor="#990000" 
+                     Orientation="Horizontal" StaticSubMenuIndent="10px" StaticDisplayLevels="2">
+                    <StaticSelectedStyle BackColor="#FFCC66" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                    <DynamicMenuStyle BackColor="#FFFBD6" />
+                    <DynamicSelectedStyle BackColor="#FFCC66" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                </asp:Menu>
+            </LoggedInTemplate>
+            <AnonymousTemplate>
+                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+            </AnonymousTemplate>
+        </asp:LoginView>
+        
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    
+    
+</body>
+</html>
