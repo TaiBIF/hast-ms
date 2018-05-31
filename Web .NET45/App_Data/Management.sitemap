@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Mgm/Main.aspx" title="HAST 資料庫管理"  description="回首頁">
+		<siteMapNode url="" title="一般資料管理"  description="">
+			<siteMapNode url="~/Mgm/general/personM.aspx" title="人名管理"  description="" />
+			<siteMapNode url="~/Mgm/general/SpeciesMS.aspx" title="學名新增"  description="" />
+			<siteMapNode url="~/Mgm/general/countryM.aspx" title="國名管理"  description="" />
+			<siteMapNode url="~/Mgm/QrySpecimenImage.aspx" title="標本影像-館號 查詢"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="進階資料管理"  description="">
+			<siteMapNode url="~/Mgm/secure/HastQuery.aspx" title="採集資料查詢"  description="" />
+			<siteMapNode url="~/Mgm/secure/genusM.aspx" title="學名管理"  description="" />
+			<siteMapNode url="~/Mgm/Project/FloraAreaSelect.aspx" title="地點-植物名錄管理"  description="" />      
+		</siteMapNode>
+    <siteMapNode url="" title="標本交換借出管理"  description="">
+      <siteMapNode url="~/Mgm/secure/LoanM.aspx" title="標本借出管理"  description="" />      
+    </siteMapNode>
+		<siteMapNode url="" title="溫室管理"  description="">
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseList.aspx" title="溫室植栽清單"  description="" />
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseInsert.aspx" title="新增植栽資料"  description="" />
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseCNumCount.aspx" title="採集號-植栽統計"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="複份統計"  description="">
+			<siteMapNode url="~/Mgm/exchange/DupsList.aspx" title="複份清單"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="訊息管理"  description="">
+			<siteMapNode url="~/Mgm/announceMgm/newsAdmin.aspx" title="新聞管理"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="網頁內容"  description="">
+			<siteMapNode url="~/Announce/newsC.aspx" title="最新消息"  description="">
+			</siteMapNode>
+			<siteMapNode url="" title="資料庫查詢"  description="">
+				<siteMapNode url="~/Announce/projectContentC.aspx" title="資料庫介紹"  description="" />
+				<siteMapNode url="~/Type/TypeListC.aspx" title="植物模式標本"  description="" />
+				<siteMapNode url="~/Specimens/specimenQueryC.aspx" title="標本資料庫查詢"  description="" />
+				<siteMapNode url="~/Photo/imageQueryC.aspx" title="影像資料庫查詢"  description="" />
+				<siteMapNode url="http://hast.asdc.sinica.edu.tw/" title="文獻資料庫查詢"  description="" />
+				<siteMapNode url="http://webgis.sinica.edu.tw/website/plant/viewer.htm" title="分布資料庫查詢"  description="" />
+				<siteMapNode url="" title="植物名錄"  description="">
+					<siteMapNode url="~/Taxon/ListHierachicalC.aspx" title="分類階層"  description="" />
+					<siteMapNode url="~/Taxon/FamilyListC.aspx" title="植物名排序"  description="" />
+        </siteMapNode>
+				
+			</siteMapNode>
+			
+
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,246 @@
+﻿body 
+{
+	/*background: white;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;	
+}
+
+div#container
+{
+	position: relative;
+	min-height: 500px;
+	width:1000px;
+	margin: auto;
+}
+
+div#main {
+    margin: 3px 0px 3px 0px;
+    background: rgb(255, 255, 255);
+    border: 1px solid gray;
+    min-height: 500px;
+}
+
+div#header,
+div#footer {
+    /*background: rgb(240, 240, 240);*/
+    padding: 3px 0;
+    border: 1px solid gray;
+    max-width: 1000px;
+    min-width: 744px;
+    margin: auto;
+    font-size: 8pt;
+    text-align:center; 
+}
+
+div#footer img {
+max-width: 30px; 
+width:30px;
+width:expression(onload=function(){this.style.width=(this.offsetWidth > 30)?"30px":"auto"});          
+overflow:hidden;
+}
+
+
+div#header {
+    border: none;    
+    padding: 0;
+}
+
+div#footer 
+{
+	background: rgb(240, 240, 240);
+    border-top: none;
+}
+
+div.controls
+{
+	padding: 20px;
+}
+
+#formMasterBegonia
+{	
+}
+
+font, th, td, p
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: 120%;
+}
+
+a:link, a:visited
+{
+	text-decoration: none;
+}
+	
+
+
+.listShow
+{
+	font-size:12px;
+	width: 960px;
+	margin: 10px 20px;
+	border:solid 1px White;
+	
+}
+
+.listShow th, .listShow td
+{
+	padding: 3px;
+	border:solid 2px White;
+	
+}
+
+.pagerRow a
+{
+	padding:2px;
+}
+
+
+.details
+{
+	font-size:10pt;
+	width: 960px;
+	margin: 10px 20px;
+	border: 2px Solid White;
+	padding: 0;
+	border-collapse: collapse;
+	
+}
+
+.details td
+{
+	border:2px Solid White;
+}
+
+
+.details .fieldHeader
+{
+	background-color: rgb(172,214,203);
+	width: 160px;
+	border:2px Solid Whie;
+	text-align:right;	
+}
+
+.details .subFieldHeader
+{
+	background-color: rgb(213,234,229);
+	width: 160px;
+	border:2px Solid White;	
+	text-align:right;
+}
+
+.details .item_field
+{
+	background-color:rgb(229,245,242);
+}
+
+
+
+.GMaps
+{
+	border-collapse: collapse;
+	padding:0;
+	border: 1px Solid Gray;
+	line-height: 100%;			
+}
+
+.GMaps td
+{
+	margin: 0 5px;		
+}
+
+#distribution
+{
+	margin:10px 15px;
+}
+
+
+table#image_detail
+{
+	width: 160px;
+	margin: 3px 0;
+	
+}
+table#image_detail td#image_subject
+{
+	font-size:12px;
+}
+
+
+
+
+
+#content .imagesList
+{
+margin: 10px 25px;	
+}
+
+#content .albumpic  
+	{	
+	display: table-cell;
+	vertical-align:middle;
+	/*設置水平居中*/        
+	text-align:center;        
+	/* 針對IE的Hack */        
+	*display: block;        
+	*font-size: 140px;	/*約為高度的0.873，160*0.873 約為175*/        
+	*font-family:Arial;	/*防止非utf-8引起的hack失效問題，如gbk編碼*/        
+	width:160px;        
+	height:160px;
+	border: 1px solid #eee;
+	border: 1px solid;
+	border-color: #AAA #444 #444 #AAA ;
+	clear: right;
+	margin: 10px 5px 2px 5px;
+	}
+
+
+/*
+#content .albumpic .ls {
+	width: 100px; 
+	margin: 16px 0; 
+	}
+		
+#content .albumpic .pt {
+	height: 100px; 	 
+	margin: 0 16px; 	
+	}
+*/
+	
+#content.albumpic img  
+	{	 
+	/*设置图片垂直居中*/        
+	vertical-align:middle;
+	border: none;  /*清掉圖片邊線，避免在有連結時出現不預期的邊線*/
+	border: 5px solid;
+	border-width:1px;	
+	border-color: #444 #AAA #AAA #444;
+	}
+	
+#content .picNote {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-align:left;
+	clear:left;
+	margin: 1px 5px 10px 3px;
+	}
+	
+.specimenInDetail 
+	{
+	max-width: 100px; 
+	overflow:hidden;
+
+	}
+	
+.query_form
+	{
+		font-size:12pt;
+		}
+
+.query_form table,.query_form tr,.query_form td
+	{		
+		border:0;
+	}
+
+
+

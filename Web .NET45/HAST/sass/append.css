@@ -1,0 +1,13 @@
+
+/*原本是針對Menu彈出選單icon所寫，目前沒用，留作測試*/
+.popout:before {
+  font-family: FontAwesome; }
+
+
+.news_list_pager table {
+  width: auto; }
+
+.news_list_pager td {
+  max-width: 10px; }
+
+/*# sourceMappingURL=append.css.map */

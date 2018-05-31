@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;AAIA,cAAe;EACd,WAAW,EAAE,WAAW;;;AAKzB,sBACA;EACG,KAAK,EAAC,IAAI;;AAGb,mBACA;EACG,SAAS,EAAC,IAAI",
+"sources": ["append.scss"],
+"names": [],
+"file": "append.css"
+}

@@ -1,0 +1,134 @@
+﻿.foo {} /* To satisfy W3C CSS Validator */
+
+/* 
+ * All comments created by Neil Chen
+ * 2006-9-28
+ */
+
+/* 顶层菜单的高度 */
+.SimpleEntertainmentMenu .AspNet-Menu-Vertical ul.AspNet-Menu
+{
+    height: 100%;
+}
+
+/* 子菜单对象的定位 */
+.SimpleEntertainmentMenu ul.AspNet-Menu ul
+{
+    width: 130px;
+    left: 145px;
+    top: 0;
+}
+
+/* 所有菜单条目 */
+.SimpleEntertainmentMenu ul.AspNet-Menu li
+{
+    background: #eeeeee;
+    width:145px;
+    text-align:center;
+}
+
+/* 第二级开始的菜单条目字体靠左排列 */
+.SimpleEntertainmentMenu .AspNet-Menu-Vertical ul.AspNet-Menu li li
+{
+    text-align:left;
+}
+
+/* 第二级开始的菜单条目的宽度 */
+.SimpleEntertainmentMenu .AspNet-Menu-Vertical ul.AspNet-Menu ul li
+{
+    width:130px;
+}
+
+/* 三级菜单的定位 */
+.SimpleEntertainmentMenu .AspNet-Menu-Vertical ul.AspNet-Menu li ul li ul
+{
+    margin: 0 0 0 -15px;
+}
+
+
+/* 自身能点的菜单条目用 a 表示，不能点的显示为 span */
+.SimpleEntertainmentMenu ul.AspNet-Menu li a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li span
+{
+    color: black;
+    padding: 4px 2px 4px 8px;
+    border:1px solid #cccccc;
+    background: transparent url(arrowRight.gif) right center no-repeat;
+}
+
+/* 清除上一个样式对叶子节点的副作用（不应该显示展开箭头）*/
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Leaf a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Leaf span
+{
+    background-image: none;
+}
+
+
+/* 菜单条目 mouseover 时，以及显式选中高亮的条目的背景色 */
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover
+{
+    background: Black;
+}
+
+/* 所有高亮条目的字体颜色 */
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover a, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover span, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover span,
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover a, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover span, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover span,
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover ul a:hover, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover ul span.Asp-Menu-Hover, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover ul a:hover,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover ul span.Asp-Menu-Hover
+{
+    color: White;
+}
+
+/* 清除上一个样式对高亮项目的下级菜单条目的副作用（前面被父级一并设置了，而高亮效果实际只应该存在于父级菜单本身） */
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover ul a, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover ul span, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul span,
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover ul a, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li:hover li:hover ul span, 
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover ul a,
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Hover li.AspNet-Menu-Hover ul span
+{
+    color: Black;
+}
+
+/* 当前高亮项目的背景小箭头变化 */
+.SimpleEntertainmentMenu ul.AspNet-Menu li a:hover,
+.SimpleEntertainmentMenu ul.AspNet-Menu li span.Asp-Menu-Hover
+{
+    color: White;
+    background: transparent url(activeArrowRight.gif) right center no-repeat;
+}
+
+/* 清除上一个样式对叶子节点的副作用（不应该显示箭头） */
+.SimpleEntertainmentMenu ul.AspNet-Menu li.AspNet-Menu-Leaf a:hover
+{
+    background-image: none;
+}
+
+/* 当前选择项边框绿色 */
+.SimpleEntertainmentMenu .AspNet-Menu-Selected
+{
+    border: solid 1px #00ff00 !important;
+}
+
+/* 当前选择项的父级项目边框为红色 */
+.SimpleEntertainmentMenu .AspNet-Menu-ChildSelected
+{
+    border: solid 1px #ff0000 !important;
+}
+
+/* 选中项目的子项目边框为蓝色 */
+.SimpleEntertainmentMenu .AspNet-Menu-ParentSelected
+{
+    border: solid 1px #0000ff !important;
+}

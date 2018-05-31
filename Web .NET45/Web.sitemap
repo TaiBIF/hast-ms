@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/Mgm/Main.aspx" title="HAST 資料庫管理"  description="回首頁">
+		<siteMapNode url="" title="一般資料管理"  description="">
+			<siteMapNode url="~/Mgm/general/personM.aspx" title="人名管理"  description="" />
+			<siteMapNode url="~/Mgm/QrySpecimenImage.aspx" title="標本影像-館號 查詢"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="進階資料管理"  description="">
+			<siteMapNode url="~/Mgm/secure/HastQuery.aspx" title="採集資料查詢"  description="" />
+			<siteMapNode url="~/Mgm/secure/genusM.aspx" title="學名管理"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="溫室管理"  description="">
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseList.aspx" title="溫室植栽清單"  description="" />
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseInsert.aspx" title="新增植栽資料"  description="" />
+			<siteMapNode url="~/Mgm/greenhouse/GreenhouseCNumCount.aspx" title="採集號-植栽統計"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="複份統計"  description="">
+			<siteMapNode url="~/Mgm/exchange/DupsList.aspx" title="複份清單"  description="" />
+		</siteMapNode>
+		
+	</siteMapNode>
+</siteMap>

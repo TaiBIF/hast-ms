@@ -1,0 +1,145 @@
+﻿ body
+ {
+ 	
+ 	font-size:10pt;
+ }
+ 
+ #news_subject
+ {
+
+ }
+ 
+ 
+#news_subject table,#news_detail table
+{
+	
+	border:0;
+	/*width:800px;*/
+	position:relative; 
+	margin-left:auto; 
+	margin-right:auto;
+	text-align:left;
+	margin-top:30px;
+	margin-bottom:30px;
+		
+}
+
+
+#news_detail table
+{
+ width:800px;
+ }
+
+
+#news_subject td 
+{
+	border:0;	
+	padding: 5px;
+	border-top:none;
+	
+	}
+
+	
+	
+	
+.news_list_type
+{
+	text-align:left;
+	width:80px;
+	border:1px;
+	border-bottom:thin dotted #0000ff;	
+}
+
+.news_list_type td
+{
+	border-bottom:thin dotted #0000ff;
+	
+}
+
+
+
+.news_list_date
+{
+	text-align:left;
+	width:80px;
+	
+}
+
+
+.news_list_subject
+{
+	text-align:left;
+}
+	
+	
+	
+.news_list_pager
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+
+.news_list_pager table
+{
+  margin-left: auto;
+    margin-right: auto;
+	width:50px;
+	}
+.news_list_pager tr
+{
+	
+
+}
+
+.news_list_pager td
+{
+ margin-left: auto;
+    margin-right: auto;
+text-align:center;
+
+}
+	
+	
+.news_content_header
+{
+	width:80px;
+	text-align:center;
+	vertical-align:top;
+	font-weight:bolder;
+	background-color: #E0FFFF;
+	border:solid 1px #66FFFF;
+	
+	}
+
+.news_content_item
+{
+	margin-left:10px;
+	margin-right:10px;
+	width:720px;
+	text-align:left;
+	vertical-align:text-top;
+	background-color:#FFFFFF;
+	border:solid 1px #66FFFF;
+	
+}	
+
+.news_content_item td
+{
+	max-width:710px;
+	
+}
+
+
+
+	
+/*
+	 重置表格元素 
+#news_content table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+			
+*/

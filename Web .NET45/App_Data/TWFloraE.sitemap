@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+		<siteMapNode url="~/Announce/newsE.aspx" title="News"  description="">			
+		</siteMapNode>
+		<siteMapNode url="" title="DATABASE"  description="">
+			<siteMapNode url="~/Announce/projectContentE.aspx" title="Database Introduction"  description="" />
+			<siteMapNode url="~/Type/TypeListE.aspx" title="Type"  description="" />
+			<siteMapNode url="~/Specimens/SpecimenQueryE.aspx" title="Specimens Database"  description="" />
+			<siteMapNode url="~/Photo/imageQueryE.aspx" title="Images Database"  description="" />
+			<siteMapNode url="http://hast.asdc.sinica.edu.tw/" title="Literature Database"  description="" />
+			<siteMapNode url="http://webgis.sinica.edu.tw/website/plant/viewer.htm" title="Distribution Database"  description="" />
+			<siteMapNode url="" title="List of Plants"  description="">
+				<siteMapNode url="~/Taxon/ListTwHierachicalE.aspx" title="Taxonomic Hierarchy of Taiwan Plants"  description="" />
+				<siteMapNode url="~/Taxon/FamilyListTwE.aspx" title="A-Z List of Taiwan Plants"  description="" />
+				<siteMapNode url="~/Taxon/ListHierachicalE.aspx" title="Taxonomic Hierarchy"  description="" />
+				<siteMapNode url="~/Taxon/FamilyListE.aspx" title="A-Z List of Plants"  description="" />				
+			</siteMapNode>
+			<siteMapNode url="~/Begonia/BegoniaList.aspx" title="Database of Begonia"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="ABOUT DNPT"  description="">
+			<siteMapNode url="~/Announce/projectDescriptionE.aspx" title="Content of DNPT"  description="" />
+			<siteMapNode url="~/Announce/projectDirectorE.aspx" title="Project Director"  description="" />
+			<siteMapNode url="~/Announce/projectTeamE.aspx" title="Project Staff"  description="" />
+			<siteMapNode url="mailto:hast@sinica.edu.tw" title="Contact US"  description="" />			
+		</siteMapNode>		
+		<siteMapNode url="~/Announce/linkE.aspx" title="LINK"  description="">			
+		</siteMapNode>
+		<siteMapNode url="~/Announce/newsC.aspx" title="CHINESE"  description="">
+		</siteMapNode>
+		
+    </siteMapNode>
+	
+	
+</siteMap>

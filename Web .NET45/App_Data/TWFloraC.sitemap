@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+		<siteMapNode url="~/Announce/newsC.aspx" title="最新消息"  description="">			
+		</siteMapNode>
+		<siteMapNode url="" title="資料庫查詢"  description="">
+			<siteMapNode url="~/Announce/projectContentC.aspx" title="資料庫介紹"  description="" />
+			<siteMapNode url="~/Type/TypeListC.aspx" title="植物模式標本"  description="" />
+			<siteMapNode url="~/Specimens/specimenQueryC.aspx" title="標本資料庫查詢"  description="" />
+			<siteMapNode url="~/Photo/imageQueryC.aspx" title="影像資料庫查詢"  description="" />
+			<siteMapNode url="http://hast.asdc.sinica.edu.tw/" title="文獻資料庫查詢"  description="" />
+			<siteMapNode url="http://webgis.sinica.edu.tw/website/plant/viewer.htm" title="分布資料庫查詢"  description="" />
+			<siteMapNode url="" title="植物名錄"  description="">
+				<siteMapNode url="~/Taxon/ListTwHierachicalC.aspx" title="台灣維管束植物分類階層"  description="" />
+				<siteMapNode url="~/Taxon/FamilyListTwC.aspx" title="台灣維管束植物名排序"  description="" />
+				<siteMapNode url="~/Taxon/ListHierachicalC.aspx" title="分類階層"  description="" />
+				<siteMapNode url="~/Taxon/FamilyListC.aspx" title="植物名排序"  description="" />				
+			</siteMapNode>
+			<siteMapNode url="~/Begonia/BegoniaList.aspx" title="秋海棠資料庫"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="計畫介紹"  description="">
+			<siteMapNode url="~/Announce/projectDescriptionC.aspx" title="計畫內容"  description="" />
+			<siteMapNode url="~/Announce/projectDirectorC.aspx" title="計畫主持人"  description="" />
+			<siteMapNode url="~/Announce/projectTeamC.aspx" title="工作團隊"  description="" />
+			<siteMapNode url="mailto:hast@sinica.edu.tw" title="聯絡我們"  description="" />			
+		</siteMapNode>
+		<siteMapNode url="" title="相關資訊"  description="">
+			<siteMapNode url="~/Announce/infoDocumentC.aspx" title="相關文獻下載"  description="" />
+			<siteMapNode url="~/Announce/infoPrepareSpecimenC.aspx" title="標本製作流程"  description="" />
+			<siteMapNode url="~/Announce/infoCollectionPermitC.aspx" title="許可證申請"  description="" />
+			<siteMapNode url="~/Announce/infoVegetationC.aspx" title="植被調查"  description="" />
+		</siteMapNode>
+		<siteMapNode url="" title="計畫專題"  description="">
+			<siteMapNode url="" title="鴛鴦湖自然保留區植物誌"  description="">
+				<siteMapNode url="~/Project/YuanYangLakeIntroC.aspx" title="鴛鴦湖自然保留區簡介"  description="" />
+				<siteMapNode url="~/Project/YuanYangLakeListC.aspx" title="鴛鴦湖自然保留區植物名錄"  description="" />
+				<siteMapNode url="~/Project/YuanYangLakeHierachicalC.aspx" title="鴛鴦湖自然保留區植物名錄 - 階層"  description="" />
+				<siteMapNode url="~/Project/YuanYangLakeQueryC.aspx" title="鴛鴦湖自然保留區植物特徵查詢"  description="" />
+			</siteMapNode>
+      
+		</siteMapNode>
+      <siteMapNode url="" title="中研院院區植物 &lt;i class=&quot;fa fa-angle-down&quot;&gt;&lt;/i&gt;"  description="">
+        <siteMapNode url="~/HAST/campusplants_list.aspx" title="院區植物名錄"  description="" />
+        <siteMapNode url="~/HAST/campusplants_pics.aspx" title="院區植物圖鑑 &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;"  description="">
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=1" title="花"  description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=3" title="果實/種子" description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=2"  title="葉" description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=4&amp;classID=1" title="蕨類植物" description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=4&amp;classID=2" title="裸子植物" description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=4&amp;classID=3" title="雙子葉植物" description="" />
+          <siteMapNode url="~/HAST/campusplants_pics.aspx?theme=4&amp;classID=4" title="單子葉植物" description="" />
+        </siteMapNode>
+
+      </siteMapNode>
+		<siteMapNode url="~/Announce/linkC.aspx" title="相關網站"  description="">			
+		</siteMapNode>
+		<siteMapNode url="~/Announce/newsE.aspx" title="ENGLISH"  description="">
+		</siteMapNode>
+		
+    </siteMapNode>
+	
+	
+</siteMap>

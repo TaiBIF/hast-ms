@@ -1,0 +1,41 @@
+
+/*原本是針對Menu彈出選單icon所寫，目前沒用，留作測試*/
+.popout:before {
+  font-family: FontAwesome; }
+
+/*處理最新消息的 Pager*/
+
+
+#GridViewNewsSubject table, #GridViewNewsSubject tr, #GridViewNewsSubject td
+{
+     border-style:none;
+    border:0;    
+}
+
+
+.news_list_pager td 
+{
+  max-width: 10px; 
+  }
+
+.news_list_pager table {
+  width: auto; 
+  
+  }  
+  
+  .news_list_pager table, .news_list_pager tr, .news_list_pager td
+  {
+       background-color:#f2f2f2;
+       border-style:none;
+       border:0;
+  }
+
+
+#QuickSearch
+{
+    padding:0 0 0 2em;
+}
+
+  
+/*# sourceMappingURL=append.css.map */
+
