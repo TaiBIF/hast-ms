@@ -1,2 +1,2 @@
-# hast
-HAST herbarium collection management and transition.
+# hast-ms
+HAST herbarium collection management based on MS solutions. Being migrated.
